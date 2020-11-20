@@ -1,0 +1,12 @@
+# Redirect visitors to the root domain path (e.g. www.mywebsite.com) to the appropriate language version
+# Fallback to English version if no matching browser language defined
+# Based on language version being at e.g. www.mywebsite.ch/de/
+
+
+# language starts with AR (Arabic)
+RewriteCond %{HTTP:Accept-Language} ^ar [NC]
+RewriteRule ^$ /de/ [L,R=301]
+
+
+# else redirect to the English version
+RewriteRule ^$ /en/ [L,R=301]

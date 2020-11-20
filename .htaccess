@@ -5,7 +5,7 @@
 
 # language starts with AR (Arabic)
 RewriteCond %{HTTP:Accept-Language} ^ar [NC]
-RewriteRule ^$ /de/ [L,R=301]
+RewriteRule ^$ /ar/ [L,R=301]
 
 
 # else redirect to the English version

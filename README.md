@@ -1,1 +1,1 @@
-<b>Automatic language redirection based on user browser </b>
+<b>Automatic language redirection based on user browser (PHP) </b>

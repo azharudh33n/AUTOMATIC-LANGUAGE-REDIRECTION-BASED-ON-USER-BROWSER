@@ -1,1 +1,1 @@
-# AUTOMATIC-LANGUAGE-REDIRECTION-BASED-ON-USER-BROWSER
+Automatic language redirection based on user browser 

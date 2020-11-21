@@ -1,1 +1,1 @@
-<big>Automatic language redirection based on user browser </big>
+<b>Automatic language redirection based on user browser </b>
